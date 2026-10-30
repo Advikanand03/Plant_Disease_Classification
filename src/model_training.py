@@ -5,7 +5,7 @@ import timm
 
 
 def create_model(num_classes, device):
-    model_name = 'mobilenetv3_large_100'
+    model_name = 'mobilenetv4_conv_medium.e500_r224_in1k'
     print(f"Loading {model_name}...")
 
     model = timm.create_model(
